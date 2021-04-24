@@ -21,7 +21,7 @@ h2 {
     border-bottom-style: solid;
     border-color: rgb(119, 119, 119);
     border-bottom-width: thin;
-    padding: 1rem;
+    padding: 1rem 0 0 0;
 }
 
 header img {
