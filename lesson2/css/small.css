@@ -5,7 +5,7 @@ body {
 }
 
 header, main, footer {
-    max-width: 760px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
@@ -24,12 +24,14 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
+section {
+    padding: 1em;
+}
 h2 {
     text-align: left;
     background-color: #FFB685 ;
     border-radius: 5px 5px 0 0;
-    font-size: 0.9rem;
+    font-size: 1em;
     padding: 5px;
 }
 
