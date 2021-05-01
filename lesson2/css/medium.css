@@ -1,9 +1,14 @@
 @media only screen and (min-width: 32.5em) {
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400&family=Noto+Sans+JP:wght@300;400&display=swap');
-
 main {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em;
+}
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
 }
 }

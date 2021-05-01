@@ -2,6 +2,7 @@
 body {
     font-size: 16px;
     font-family: "Noto Sans JP", Verdana, Georgia;
+    padding: 0.5rem;
 }
 
 header, main, footer {
@@ -13,23 +14,20 @@ header, footer {
     text-align: center;
     padding: 1.5rem;
     background-color: #FFB685 ;
+    justify-content: center;
 }
 h1 {
         font-size: 1.5rem;
         font-family: "M PLUS Rounded 1c", "Noto Serif JP", "M PLUS 1p", serif;
     }
 main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-section {
-    padding: 1em;
-}
+        display: grid;
+    }
 h2 {
     text-align: left;
     background-color: #FFB685 ;
     border-radius: 5px 5px 0 0;
-    font-size: 1em;
+    font-size: 1rem;
     padding: 5px;
 }
 
