@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400&family=Noto+Sans+JP:wght@300;400&display=swap');
+body {
+    font-size: 16px;
+    font-family: "Noto Sans JP", Verdana, Georgia;
+}
+
+header, main, nav, footer {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+header, footer {
+    text-align: center;
+    border: 1px solid rgb(15, 6, 32) ;
+    padding: 1.5rem;
+    background-color: rgb(15, 6, 32) ;
+    color: rgb(255, 189, 74);
+}
+
+h1, h2 {
+    font-family: "M PLUS Rounded 1c", "Noto Serif JP", "M PLUS 1p", serif;
+}
+
+nav {
+    background-color:  rgb(15, 6, 32) ;
+    text-align: center;
+    box-shadow:   0 2px 15px rgb(27, 11, 56);
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: rgb(255, 189, 74);
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+nav a:hover {
+	background-color: rgb(255, 189, 74);
+	color:rgb(15, 6, 32);
+}
+.active {
+	color: white;
+}
+
+footer a {
+    color: rgb(255, 189, 74) ;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+}
+main section {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #eee;
+}
+
+main img {
+	width: 100%;
+    height: auto;
+    border: 1px solid #bbb;
+}
+p {
+	font-size: 1.25em;
+	line-height: 1.25em;
+}
+
+@media only screen and (min-width: 37.5em) {
+
+    nav ul { display: flex; }
+    nav ul li { flex: 1 1 100%; }
+	nav a {
+		font-size: 1rem;
+	}
+	main {
+		grid-template-columns: 1fr 1fr;
+	}
+	section:nth-child(3) {
+		grid-column: span 2;
+	}
+}
+
+@media only screen and (min-width: 60em) {
+	nav a {
+		font-size: 1.1rem;
+	}
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	section:nth-child(3) {
+		grid-column: span 1;
+	}
+}
