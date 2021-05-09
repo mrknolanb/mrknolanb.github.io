@@ -74,7 +74,7 @@ div {
     padding-right: 1em;
 	display: grid;
 	grid-template-columns: 1fr;
-	font-size: 0.8rem;
+	font-size: 0.5rem;
 }
 
 div img {
@@ -110,6 +110,9 @@ p {
 	}
 	section:nth-child(3) {
 		grid-column: span 2;
+	}
+	div {
+		font-size: 0.8rem;
 	}
 }
 
