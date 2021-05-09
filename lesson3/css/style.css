@@ -2,6 +2,7 @@
 body {
     font-size: 16px;
     font-family: "Noto Sans JP", Verdana, Georgia;
+	background-color: #F4F3EC;
 }
 
 header, main, nav, footer {
@@ -66,15 +67,36 @@ main section {
 	background-color: #eee;
 }
 
+div {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-left: 1em;
+    padding-right: 1em;
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+}
+
+div img {
+	width: 100%;
+    height: auto;
+    border: 1px solid #bbb;
+}
+
+
+
+
 main img {
 	width: 100%;
     height: auto;
     border: 1px solid #bbb;
 }
+
 p {
 	font-size: 1.25em;
 	line-height: 1.25em;
 }
+  
 
 @media only screen and (min-width: 37.5em) {
 
