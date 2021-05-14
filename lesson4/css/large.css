@@ -29,6 +29,15 @@
         border-right: 1px solid rgba(0, 0, 0, 0.3);
         padding: 0.6rem 1rem;
     }
+    footer section:first-child {
+        padding-top: 2em;
+    }
 
+    header {
+        justify-content: left;
+    }
 
+    header picture img {
+        padding: 0 0 0 2em;
+    }
 }

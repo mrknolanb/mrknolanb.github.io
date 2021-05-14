@@ -52,6 +52,7 @@ header img {
 }
 
 footer {
+    display: block;
     padding-top: 1em;
     text-align: center;
 }
@@ -102,7 +103,7 @@ nav a:hover {
 }
 
 footer a {
-    color: rgb(255, 189, 74) ;
+    color: #ffbd4a ;
 }
 
 main {
@@ -168,7 +169,7 @@ ul.fiveDay li{
 }
 
 footer p {
-    font-size: 1rem;
+    font-size: 1.15em;
 }
 
 nav ul.hide {
@@ -186,4 +187,28 @@ button:hover {
     background-color: rgb(255, 189, 74);
 	color:rgb(15, 6, 32);
 }
+
+.cbasic {
+    display: grid;
+    grid-template-columns: 0.01fr 1fr;
+  }
+  .cbasic p {
+    text-align: left;
+    padding-left: 1em;
+    font-size: 1.15em ;
+  }
   
+footer div.cbasic img {
+    width: 25px;
+    padding: 0%;
+}
+
+footer img {
+    width: 90%;
+    padding: 1em 0;
+}
+
+footer section:nth-child(3) {
+    font-size: .7em ;
+}
+
