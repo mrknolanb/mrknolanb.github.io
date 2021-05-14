@@ -12,6 +12,7 @@ h1, h2 {
     font-family: "M PLUS Rounded 1c", "Noto Serif JP", "M PLUS 1p", serif;
 }
 
+
 header {
 	background-color: rgb(15, 6, 32) ;
 	display: flex;
@@ -55,6 +56,7 @@ footer {
     display: block;
     padding-top: 1em;
     text-align: center;
+
 }
 
 .second-line {
@@ -70,13 +72,6 @@ nav {
     background-color:  rgb(15, 6, 32) ;
     text-align: center;
     box-shadow:   0 2px 15px rgb(27, 11, 56);
-}
-
-nav button {
-    background-color: transparent;
-    border:none;
-    font-size: 1.6rem;
-    color: rgb(255, 189, 74);
 }
 
 nav ul {
@@ -177,10 +172,13 @@ nav ul.hide {
 }
 
 button {
-    width: 100%;
     margin: 0;
     padding-bottom: 5px;
-
+    background-color: transparent;
+    border:none;
+    font-size: 1.6rem;
+    color: rgb(255, 189, 74);
+    margin-left: 7em;
 }
 
 button:hover {
