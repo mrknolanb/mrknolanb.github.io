@@ -19,7 +19,7 @@ main {
 	padding: 0.5rem;
 	background-color: rgb(111, 187, 238);
 	display: grid;
-	grid-template-columns: 1 0;
+	grid-template-columns: 1fr ;
 }
 
 input,
