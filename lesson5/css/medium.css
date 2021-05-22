@@ -1,0 +1,31 @@
+@media only screen and (min-width: 35em) {
+
+    footer {
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    footer section:first-child {
+        padding-top: 2em;
+    }
+
+    .weasum {
+        font-size: 11px;
+        top: 7.5em;
+        left: 3em;
+        padding: 1rem;
+    }
+
+
+    figure {
+        width: 275px;
+        margin: 2em;
+        border: none;
+        box-shadow: 0 0 30px rgb(51, 47, 51);
+        float: right;
+
+      }
+
+}

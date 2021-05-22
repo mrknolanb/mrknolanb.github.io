@@ -15,6 +15,10 @@
 </head>
 
 <body>
+    <div class="banner">
+        <h1>Saturday = Preston Pancakes in the Park! 🥞</h1>
+        <p><em>9:00 a.m.</em> Saturday at the city park pavilion.</p>
+    </div>
     <header>
         <picture>
             <img src="images/Wwlogo.png" alt="whether weather logo">
@@ -26,7 +30,7 @@
         <button onclick="toggleMenu()">&#9776;</button>
     </header>
     <nav>
-        
+
         <ul id="primaryNav" class="hide">
             <li><a href="#">Home</a></li>
             <li><a href="preston-4.html" class="active">Preston</a></li>
@@ -37,12 +41,35 @@
         </ul>
     </nav>
     <main>
-        <section class="headding">
+        <section class="preston-herobanner">
             <h2>Preston Idaho</h2>
-            <img src="https://via.placeholder.com/350x150" alt="hero image">
+            <img src="images/hero-image.webp" alt="hero image">
+            <section class="weasum">
+                <h2>Weather Summary</h2>
+                <p>Currently: <span id="current">Sunny</span></p>
+                <p>High: <span id="high">80&deg;F</span></p>
+                <p>Windchill: <span id="windchill">70&deg;F</span></p>
+                <p>Humidity: <span id="humid">25%</span></p>
+                <p>Wind Speed: <span id="windspeed">6 mph</span></p>
+            </section>
+        </section>
+        <section>
+            <h2>Five Day Forecast</h2>
+            <ul class="fiveDay">
+                <li><img src="https://via.placeholder.com/175x125" alt="1st day"></li>
+                <li><img src="https://via.placeholder.com/175x125" alt="second day"></li>
+                <li><img src="https://via.placeholder.com/175x125" alt="third day"></li>
+                <li><img src="https://via.placeholder.com/175x125" alt="fourth day"></li>
+                <li><img src="https://via.placeholder.com/175x125" alt="fifth day"></li>
+            </ul>
         </section>
         <section>
             <h2>Weather Summary</h2>
+            <figure><img src="images/pexels-mario-cuadros-3240914.jpg" alt="a girl in the rain">
+                <figcaption><a
+                        href="https://www.pexels.com/photo/woman-walking-on-street-under-black-umbrella-3240914/">Photo
+                        by Mario Cuadros from Pexels</a></figcaption>
+            </figure>
             <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex dolore ipsum recusandae repudiandae
                 exercitationem aspernatur minima quasi magnam eius a sit fugit dolorem reiciendis aut rem deleniti,
                 similique alias, vero incidunt sint natus possimus, illo totam nihil. Earum quia sapiente fugit
@@ -68,17 +95,6 @@
 
             </P>
         </section>
-        <section>
-            <h2>Five Day Forecast</h2>
-            <ul class="fiveDay">
-                <li><img src="https://via.placeholder.com/175x125" alt="1st day"></li>
-                <li><img src="https://via.placeholder.com/175x125" alt="second day"></li>
-                <li><img src="https://via.placeholder.com/175x125" alt="third day"></li>
-                <li><img src="https://via.placeholder.com/175x125" alt="fourth day"></li>
-                <li><img src="https://via.placeholder.com/175x125" alt="fifth day"></li>
-            </ul>
-        </section>
-
     </main>
     <footer>
         <section>
@@ -93,13 +109,12 @@
         </section>
 
         <section>
-            <img src="https://via.placeholder.com/350x150" alt="map">
+            <img src="images/map-preston400x234.png" alt="map">
         </section>
 
         <section>
-            &copy; <span id="thisyear"></span> | Mark Nolan Bullag | Bacolod City, Philippines | 
-            <a
-                href="https://www.byui.edu/online">BYU Online Learning</a>
+            &copy; <span id="thisyear"></span> | Mark Nolan Bullag | Bacolod City, Philippines |
+            <a href="https://www.byui.edu/online">BYU Online Learning</a>
             <p>Last Modified: <span id="lastmod"></span></p>
         </section>
     </footer>
