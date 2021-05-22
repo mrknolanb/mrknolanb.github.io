@@ -48,4 +48,8 @@
         left: 2.5em;
         padding: 1.5rem;
     }
+
+    .fiveDay { 
+        font-size: 1.5rem;
+    }
 }

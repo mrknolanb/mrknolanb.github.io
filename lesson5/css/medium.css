@@ -20,6 +20,12 @@
     
     .fiveDay { 
         display: flex;
+        font-size: 1.1rem;
+        list-style-type: none;
+        text-align: center;
+        align-items: center;
+        justify-content: center; 
+        padding: 0;  
     }
 
     figure {
