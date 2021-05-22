@@ -229,7 +229,7 @@ footer section:nth-child(3) {
 
 main section:nth-child(3) img {
     border: none;
-    box-shadow: 0 0 px rgb(51, 47, 51);
+    box-shadow: 0 0 10px rgb(51, 47, 51);
 }
 
 figure {
