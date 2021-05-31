@@ -1,0 +1,27 @@
+@media only screen and (min-width: 35em) {
+
+    footer {
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    footer section:first-child {
+        padding-top: 2em;
+    }
+  
+
+    figure {
+        width: 450px;
+        margin: 2em;
+        border: none;
+      }
+
+ #gallery-photos {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(250px, 1fr));
+        justify-items: center;
+      }
+
+}
