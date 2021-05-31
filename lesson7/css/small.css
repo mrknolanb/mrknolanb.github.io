@@ -197,4 +197,6 @@ figure img[data-src] {
     transition: filter 0.5s;
   }
 
-
+  footer section:nth-child(3) {
+    font-size: .7em;
+}
