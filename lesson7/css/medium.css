@@ -13,15 +13,16 @@
   
 
     figure {
-        width: 375px;
+        width: 300px;
         margin: 2em;
         border: none;
       }
 
  #gallery-photos {
         display: grid;
-        grid-template-columns: repeat(2, minmax(250px, 1fr));
+        grid-template-columns: repeat(2, minmax(300px, 1fr));
         justify-items: center;
+        grid-gap: 25px;
       }
 
 }
