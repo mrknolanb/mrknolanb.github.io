@@ -200,3 +200,11 @@ figure img[data-src] {
   footer section:nth-child(3) {
     font-size: .7em;
 }
+
+#result {
+    font-size: 1em;
+}
+
+#result {
+    margin-bottom: 2em;
+}
