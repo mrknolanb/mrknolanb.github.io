@@ -33,5 +33,4 @@ let newVisit = Date.now() ;
 let lastVisit = localStorage.getItem("lastVisit") ;
 document.getElementById("result").innerHTML = "You visited this page " + getNumberOfDays(lastVisit, newVisit) + " day/s ago!";
 
-
 localStorage.setItem("lastVisit", newVisit) ;
