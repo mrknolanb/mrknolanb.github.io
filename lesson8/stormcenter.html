@@ -75,8 +75,8 @@
                 </datalist>
               </label>
               <label class="storm">
-                Storm Severity: <input type="range" name="storm_severity" min="1" max="10" step="1" value="5" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
-                <span id="ratingvalue">5</span>
+                Storm Severity: <input type="range" name="storm_severity" min="1" max="10" step="1" value="10" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
+                <span id="ratingvalue">1-10</span>
               </label>
               <label class="storm">
                 Storm Region: <select name="storm_region" id="storm_region">
@@ -99,9 +99,9 @@
                 <label class="radios"><input type="radio" name="user_level" value="no">
                 <span class="option">No</span>
                 </label>
-                <label class="top">Comments: </label>
+                <label class="top">Comments: 
                 <textarea name="comments" id="comments">
-                </textarea>
+                </textarea> </label>
           </fieldset>
           <input class="submit_button" type="submit" value="Submit This Report">
         </form>
