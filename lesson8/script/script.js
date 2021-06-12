@@ -10,3 +10,7 @@ if (today.getDay() == 5) {
     document.querySelector('.banner').style.display = "block"
 
 }
+
+function adjustRating(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
+}
