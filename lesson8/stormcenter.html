@@ -75,8 +75,8 @@
                 </datalist>
               </label>
               <label class="storm">
-                Storm Severity: <input type="range" name="storm_severity" min="1" max="10" step="1" value="10" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
-                <span id="ratingvalue">1-10</span>
+                Storm Severity: <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <span id="ratingvalue">5</span>
               </label>
               <label class="storm">
                 Storm Region: <select name="storm_region" id="storm_region">
