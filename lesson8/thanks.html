@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A weather site plan by Mark Nolan Bullag for WDD 230">
+    <title>Whether Weather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="js/windchill.js" defer></script>
+</head>
+
+<body>
+    <div class="banner">
+        <h1>Saturday = Preston Pancakes in the Park! 🥞</h1>
+        <p><em>9:00 a.m.</em> Saturday at the city park pavilion.</p>
+    </div>
+    <header>
+        <picture>
+            <img src="images/Wwlogo.png" alt="whether weather logo">
+        </picture>
+        <section class="headings">
+            <h1>Whether</h1>
+            <div class="second-line">Weather</div>
+        </section>
+        <button onclick="toggleMenu()">&#9776;</button>
+    </header>
+    <nav>
+
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-4.html" >Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html" class="active">Storm Center</a></li>
+            <li><a href="/lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <picture><img src="images/Confirm.png" alt="confirmation logo"></picture>
+        <h1>Thank you for your submission. <br>We will get back with you as soon as possible!</h1>
+    </main>
+    <footer>
+            <div class="cbasic">
+                <img src="images/message.png" alt="mail" width="50">
+                <p>Customer Support: support@weeweather.com</p>
+                <img src="images/message.png" alt="mail2" width="50">
+                <p>Website Feedback: webmaster@weeweather.com</p>
+                <img src="images/call.png" alt="telephone" width="50">
+                <p>Phone (Calls and texts): 123-456-789</p>
+            </div>
+        <section class="copyright">
+            &copy; <span id="thisyear"></span> | Mark Nolan Bullag | Bacolod City, Philippines |
+            <a href="https://www.byui.edu/online">BYU Online Learning</a>
+            <p>Last Modified: <span id="lastmod"></span></p>
+        </section>
+    </footer>
+    <script src="script/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+  WebFont.load({google: { families: [ "Noto Sans JP", "M PLUS Rounded 1c", "Noto Serif JP"]}});
+</script>
+</body>
+
+</html>
