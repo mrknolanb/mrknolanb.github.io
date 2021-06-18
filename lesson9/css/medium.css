@@ -25,6 +25,53 @@
         font-size: 15px;
     }
 
+    .cards section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+    
+      .cards section:nth-child(odd) img {
+        grid-column: 1;
+      }
+    
+      .cards section:nth-child(odd) #details {
+        grid-column: 2;
+        grid-row: 1;
+      }
+
+      .campaignx {
+        position: absolute;
+        bottom: 13em;
+        left: 2em;
+      }
+
+      .campaignx h3 {
+        font-size: 2.5em;
+        margin-top: 0%;
+    }
+
+      .campaignx h2 {
+        font-size: 5em;
+    }
+    
+    .campaignx p {
+        font-size: 1.5em;
+    }
+
+    .campaignx p a{
+        color: rgb(255, 189, 74);
+    }
+    
+    .details p {
+    line-height: 1px;
+    }
+
+    picture.preston-banner-image img {
+        padding: 0%;
+        width: 100%;
+        display: block;
+    }
+
     main picture img {
         width: 200px;
         display: block;

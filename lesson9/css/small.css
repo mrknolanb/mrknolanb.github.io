@@ -102,13 +102,18 @@ picture.preston-banner-image img {
     grid-template-columns: 1fr;
     grid-gap: 5px;
     padding: 2em;
+    color: #ffbd4a ;
+
   }
   
   .cards section {
     margin: auto;
     border: 2px solid #000;
     border-radius: 5px;
-    background-color: #d4dec9;
+    background: radial-gradient(rgb(74, 48, 122), rgb(15, 6, 32));
+    border: 1px solid #000;
+	box-shadow: 0 0 30px #333;
+	opacity: .9;
   }
   
   .cards section img {
@@ -120,7 +125,9 @@ picture.preston-banner-image img {
     transition: filter 1s;
   }
 
-
+.wireframes {
+    text-align: center;
+}
 
 footer a {
     color: #ffbd4a ;
@@ -162,12 +169,6 @@ form {
     
 }
 
-main h2 {
-    text-align: center;
-    font-size: 1.15rem;
-    margin-bottom: 0%;
-}
-
 h4 {
     margin-top: .5px;
 }
@@ -177,23 +178,43 @@ main p {
 }
 
 .campaign img {
+    width: 100%;
     padding: 0%;
+}
+
+.campaign {
+    margin: 10px auto; 
+    position: relative;
+}
+
+.campaignx h3 {
+    font-size: 1.5em;
+    margin-top: 0%;
+}
+
+picture.campaign-banner-image img {
     width: 100%;
 }
 
-
 .campaignx {
-    text-align: center;
+    position: absolute;
+    bottom: 8.5em;
+    left: 2em;
+    font-size: 8px;
+    color: black;
 }
 
-.campaignx {
-    padding: 1.60rem;
-    position: relative;
-    top: 14em;
-    right: 8.50em;
-    color: black;
-    background: linear-gradient(to left, rgba(255,0,0,0), gray);
-	opacity: .9;
+.campaignx h2 {
+    font-size: 2em;
+    margin: 0%;
+}
+
+.campaignx p {
+    font-size: 1em;
+}
+
+.campaignx p a{
+    color: rgb(255, 189, 74);
 }
 
 .cbasic {
