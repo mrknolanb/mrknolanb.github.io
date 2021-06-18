@@ -1,0 +1,39 @@
+@media only screen and (min-width: 35em) {
+
+    footer section:first-child {
+        padding-top: 2em;
+    }
+
+    main h2 {
+        font-size: 1.5em;
+    }
+
+    form legend {
+        font-size: 1.25rem;
+      }
+
+      .cbasic p {
+        font-size: 15px;
+      }
+
+      .cbasic img {
+          margin-top: 10px;
+      }
+
+      .copyright {
+        padding: 2em 0 0 0;
+        font-size: 15px;
+    }
+
+    main picture img {
+        width: 200px;
+        display: block;
+        padding-top: 4em; 
+    }
+
+    main h1 {
+        font-size: 1.5em;
+        padding: 2em 2.5em;
+    }
+    
+}
