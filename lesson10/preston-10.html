@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A weather site plan by Mark Nolan Bullag for WDD 230">
+    <title>Whether Weather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+    <div class="banner">
+        <h1>Saturday = Preston Pancakes in the Park! 🥞</h1>
+        <p><em>9:00 a.m.</em> Saturday at the city park pavilion.</p>
+    </div>
+    <header>
+        <picture>
+            <img src="images/Wwlogo.png" alt="whether weather logo">
+        </picture>
+        <section class="headings">
+            <h1>Whether</h1>
+            <div class="second-line">Weather</div>
+        </section>
+        <button onclick="toggleMenu()">&#9776;</button>
+    </header>
+    <nav>
+
+        <ul id="primaryNav" class="hide">
+            <li><a href="/lesson9/index.html" >Home</a></li>
+            <li><a href="/lesson10/preston-10.html" class="active">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="/lesson8/stormcenter.html" >Storm Center</a></li>
+            <li><a href="/lesson7/gallery-7.html">Gallery</a></li>
+            <script defer src="js/script.js"></script>
+
+          </ul>
+    </nav>
+    <main>
+        <section class="preston-herobanner">
+            <h2>Preston Idaho</h2>
+            <picture class="preston-banner-image">
+                <source srcset="images/hero-image-large.jpg" media="(min-width: 1000px)">
+                  <source srcset="images/hero-image-medium.jpg" media="(min-width: 600px)">
+                <img src="images/hero-image-small.jpg" alt="hero-image-banner"> 
+              </picture>
+            <section class="weasum">
+                <h2>Weather Summary</h2>
+                <p>Currently: <span id="current"></span></p>
+                <p>Current Temperature: <span id="curtemp">50</span><span>&deg;F</span></p>
+                <p>Windchill: <span id="windchill"></span></p>
+                <p>Humidity: <span id="humid"></span><span>%</span></p>
+                <p>Wind Speed: <span id="windspeed"></span><span> mph</span></p>
+            </section>
+        </section>
+        <section>
+            <h2>Five Day Forecast</h2>
+            <ul class="fiveDay">
+                <li><img src="" alt="" id="imgday1"><span id="day1"></span><br><span id="temp1"></span>&deg;F</li>
+                <li><img src="" alt="" id="imgday2"><span id="day2"></span><br><span id="temp2"></span>&deg;F</li>
+                <li><img src="" alt="" id="imgday3"><span id="day3"></span><br><span id="temp3"></span>&deg;F</li>
+                <li><img src="" alt="" id="imgday4"><span id="day4"></span><br><span id="temp4"></span>&deg;F</li>
+                <li><img src="" alt="" id="imgday5"><span id="day5"></span><br><span id="temp5"></span>&deg;F</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Weather Summary</h2>
+            <figure><img src="images/pexels-mario-cuadros-3240914.jpg" alt="a girl in the rain">
+                <figcaption><a
+                        href="https://www.pexels.com/photo/woman-walking-on-street-under-black-umbrella-3240914/">Photo
+                        by Mario Cuadros from Pexels</a></figcaption>
+            </figure>
+            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex dolore ipsum recusandae repudiandae
+                exercitationem aspernatur minima quasi magnam eius a sit fugit dolorem reiciendis aut rem deleniti,
+                similique alias, vero incidunt sint natus possimus, illo totam nihil. Earum quia sapiente fugit
+                accusamus saepe voluptas atque autem, eaque quos molestias suscipit tempore, cumque laborum similique
+                sint cum, officia eligendi fuga eius asperiores sit natus modi consectetur. Aspernatur culpa velit
+                placeat, blanditiis consequuntur itaque sit incidunt repellendus non accusantium eum deserunt omnis
+                neque repellat? Aliquam et praesentium, magnam earum facilis, rerum non velit blanditiis vel nam labore
+                corporis delectus aperiam minus modi minima dolores quibusdam nulla, quos repellendus doloribus
+                voluptate quam. Ratione amet est eius! Voluptate aut necessitatibus alias reprehenderit dolore aperiam
+                vero sequi. Consectetur ut rem atque et repudiandae ea voluptates quas quidem recusandae repellat
+                doloribus debitis praesentium unde id deserunt autem totam laborum temporibus delectus, dolorem pariatur
+                ipsa. Impedit, odio. <br> <br>
+
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint hic nulla dolore qui dolores reiciendis
+                quod animi veniam quibusdam, laudantium illum dolor velit odio, optio, ipsam suscipit error quo eos
+                aspernatur voluptas reprehenderit aperiam exercitationem. Magnam, unde! Magnam quas aliquam aperiam non
+                laudantium debitis aut nisi harum est? Praesentium dignissimos natus cum nam numquam, illum itaque quis
+                quaerat temporibus minima? Voluptate odio, accusantium blanditiis facilis modi tempore nam veniam
+                corporis eligendi itaque, ipsa accusamus praesentium? Porro neque voluptate autem, assumenda
+                exercitationem sed voluptatem inventore voluptates atque magnam laboriosam nihil totam ipsa iusto
+                ducimus quisquam odio veritatis aperiam numquam? Dolor, velit.
+
+
+            </P>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <div class="cbasic">
+                <img src="images/message.png" alt="mail" width="50">
+                <p>Customer Support: support@weeweather.com</p>
+                <img src="images/message.png" alt="mail2" width="50">
+                <p>Website Feedback: webmaster@weeweather.com</p>
+                <img src="images/call.png" alt="telephone" width="50">
+                <p>Phone (Calls and texts): 123-456-789</p>
+            </div>
+        </section>
+
+        <section>
+            <img src="images/map-preston400x234.png" alt="map">
+        </section>
+
+        <section>
+            &copy; <span id="thisyear"></span> | Mark Nolan Bullag | Bacolod City, Philippines |
+            <a href="https://www.byui.edu/online">BYU Online Learning</a>
+            <p>Last Modified: <span id="lastmod"></span></p>
+        </section>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+  WebFont.load({google: { families: [ "Noto Sans JP", "M PLUS Rounded 1c", "Noto Serif JP"]}});
+</script>
+</body>
+
+</html>
