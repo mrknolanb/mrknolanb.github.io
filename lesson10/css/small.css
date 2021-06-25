@@ -120,7 +120,8 @@ main section:first-child h2{
 }
 
 main section:nth-child(2) h2{
-    display: none;
+    text-align: center;
+    font-size: 1.5em;
 }
 
 div {

@@ -17,6 +17,10 @@
         left: 3em;
         padding: 1rem;
     }
+
+    main section:nth-child(2) h2{
+        font-size: 2.5em;
+    }
     
     .fiveDay { 
         font-size: 1.1rem;
