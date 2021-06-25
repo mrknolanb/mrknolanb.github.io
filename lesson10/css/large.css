@@ -52,4 +52,26 @@
     .fiveDay { 
         font-size: 1.5rem;
     }
+
+    li img {
+        width: 100px;
+    }
+    hr {
+        border: 10px solid;
+        border-image-slice: 1;
+        border-width: 5px;
+        border-image-source: linear-gradient(to left, #743ad5, rgb(255, 189, 74));
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    li img {
+    
+        box-shadow: 0 0 10px rgb(51, 47, 51);
+        border-top: 15px solid rgb(255, 189, 74);
+        border-right: 15px solid rgb(74, 48, 122);
+        border-bottom: 15px solid rgb(255, 189, 74);
+        border-left: 15px solid rgb(74, 48, 122);
+    
+    }
 }
