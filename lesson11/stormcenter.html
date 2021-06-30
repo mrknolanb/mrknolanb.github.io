@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A weather site plan by Mark Nolan Bullag for WDD 230">
+    <title>Whether Weather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="lesson8/css/small.css">
+    <link rel="stylesheet" href="lesson8/css/medium.css">
+    <link rel="stylesheet" href="lesson8/css/large.css">
+    <link rel="shortcut icon" href="lesson8/favicon.ico">
+</head>
+
+<body>
+    <div class="banner">
+        <h1>Saturday = Preston Pancakes in the Park! 🥞</h1>
+        <p><em>9:00 a.m.</em> Saturday at the city park pavilion.</p>
+    </div>
+    <header>
+        <picture>
+            <img src="lesson8/images/Wwlogo.png" alt="whether weather logo">
+        </picture>
+        <section class="headings">
+            <h1>Whether</h1>
+            <div class="second-line">Weather</div>
+        </section>
+        <button onclick="toggleMenu()">&#9776;</button>
+    </header>
+    <nav>
+
+        <ul id="primaryNav" class="hide">
+          <li><a href="index.html" >Home</a></li>
+          <li><a href="preston.html" >Preston</a></li>
+          <li><a href="#">Soda Springs</a></li>
+          <li><a href="#">Fish Haven</a></li>
+          <li><a href="stormcenter.html" class="active">Storm Center</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+      </ul>
+    </nav>
+    <main>
+    <h2>Storm Risk Report Submission Page</h2>
+        <form method="GET" action="thanks.html">
+          <fieldset>
+            <legend>Your Information</legend>
+              <label class="info">
+              *Full Name: <input type="text" name="fullname" title="Please have at least 3 letters entered" pattern="^([a-zA-Z]{2,}\s[a-zA-Z]{1,}'?-?[a-zA-Z]{2,}\s?([a-zA-Z]{1,})?)" required>
+              </label>
+              <label class="info">
+              Email: <input type="email" name="email" placeholder="user@email.com">
+              </label>  
+              <label class="info">
+              *Phone: <input type="tel" name="phone" title="Please write 10 numbers or more" placeholder="123-456-7890" required>
+              </label>
+              <label class="info">
+              *Zip Code: <input type="number" name="zipcode" required>
+              </label>
+          </fieldset>
+          <fieldset>
+            <legend>Storm Information</legend>
+              <label class="storm">
+              Storm Date: <input type="date" name="storm_date">
+              </label>
+              <label class="storm">
+              Storm Type: <input list="storm_type" name="storm_type">
+                <datalist id="storm_type">
+                  <option value="Flash Flood"></option>
+                  <option value="Hail"></option>
+                  <option value="Hurricane"></option>
+                  <option value="Thunderstorm"></option>
+                  <option value="Tornado"></option>
+                </datalist>
+              </label>
+              <label class="storm">
+                Storm Severity: <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <span id="ratingvalue">5</span>
+              </label>
+              <label class="storm">
+                Storm Region: <select name="storm_region" id="storm_region">
+                <option selected disabled>Select Region....</option>
+                <option value="Preston">Preston</option>
+                <option value="Soda_Springs">Soda Springs</option>
+                <option value="Fish_Haven">Fish Haven</option>
+                </select>
+              </label>
+          </fieldset>
+          <fieldset>
+            <legend>Additional Information</legend>
+              <div>User in Danger Level:</div>
+                <label class="radios"><input type="radio" name="user_level" value="yes">
+                <span class="option">Yes</span>
+                </label>
+                <label class="radios"><input type="radio" name="user_level" value="maybe">
+                <span class="option">Maybe</span>
+                </label>
+                <label class="radios"><input type="radio" name="user_level" value="no">
+                <span class="option">No</span>
+                </label>
+                <label class="top">Comments: 
+                <textarea name="comments" id="comments">
+                </textarea> </label>
+          </fieldset>
+          <input class="submit_button" type="submit" value="Submit This Report">
+        </form>
+    </main>
+    <footer>
+            <div class="cbasic">
+                <img src="lesson8/images/message.png" alt="mail" width="50">
+                <p>Customer Support: support@weeweather.com</p>
+                <img src="lesson8/images/message.png" alt="mail2" width="50">
+                <p>Website Feedback: webmaster@weeweather.com</p>
+                <img src="lesson8/images/call.png" alt="telephone" width="50">
+                <p>Phone (Calls and texts): 123-456-789</p>
+            </div>
+        <section class="copyright">
+            &copy; <span id="thisyear"></span> | Mark Nolan Bullag | Bacolod City, Philippines |
+            <a href="https://www.byui.edu/online">BYU Online Learning</a>
+            <p>Last Modified: <span id="lastmod"></span></p>
+        </section>
+    </footer>
+    <script src="lesson8/script/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+  WebFont.load({google: { families: [ "Noto Sans JP", "M PLUS Rounded 1c", "Noto Serif JP"]}});
+</script>
+</body>
+
+</html>

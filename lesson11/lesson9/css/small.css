@@ -1,0 +1,261 @@
+body {
+    font-size: 16px;
+    font-family: "Noto Sans JP", Verdana, Georgia;
+	background-color: #F4F3EC;
+    padding: 0;
+	margin: 0;
+}
+
+
+h1, h2 {
+    font-family: "M PLUS Rounded 1c", "Noto Serif JP", "M PLUS 1p", serif;
+}
+
+
+header {
+	background-color: rgb(15, 6, 32) ;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header,nav, main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header, footer {
+    border: 1px solid rgb(15, 6, 32) ;
+    background-color: rgb(15, 6, 32) ;
+    color: rgb(255, 189, 74);
+}
+
+header img {
+	width: 90px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+    line-height: 17px;
+    padding-bottom: 15px;
+}
+
+.headings h1 {
+    font-style: italic;
+	font-size: .9rem;
+	margin: 0 0 0 17px;
+    color: rgb(255, 189, 74);
+    padding: 0;
+    margin: 0;
+}
+
+.second-line {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: rgb(255, 189, 74);
+	padding: 0;
+    margin: 0;
+	font-size: 1.6rem;
+}
+
+nav {
+    background-color:  rgb(15, 6, 32) ;
+    text-align: center;
+    box-shadow:   0 2px 15px rgb(27, 11, 56);
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li a {
+	display: block;
+	color: rgb(255, 189, 74);
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+nav a:hover {
+	background-color: rgb(255, 189, 74);
+	color:rgb(15, 6, 32);
+}
+.active {
+	color: white;
+}
+
+picture.preston-banner-image img {
+    padding: 0%;
+    width: 100%;
+    display: none;
+}
+
+
+.cards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    padding: 2em;
+    color: #ffbd4a ;
+
+  }
+  
+  .cards section {
+    margin: auto;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background: radial-gradient(rgb(74, 48, 122), rgb(15, 6, 32));
+    border: 1px solid #000;
+	box-shadow: 0 0 30px #333;
+	opacity: .9;
+  }
+  
+  .cards section img {
+    border-radius: 8px;
+    width: 80%;
+    height: auto;
+    padding: 5px;
+    filter: blur(0em);
+    transition: filter 1s;
+  }
+
+.wireframes {
+    text-align: center;
+}
+
+footer a {
+    color: #ffbd4a ;
+}
+
+
+div {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-left: 1em;
+    padding-right: 1em;
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.6rem;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+button {
+    margin: 0;
+    padding-bottom: 5px;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: rgb(255, 189, 74);
+    margin-right: .5em;
+    margin-left: auto;
+}
+
+button:hover {
+    background-color: rgb(255, 189, 74);
+	color:rgb(15, 6, 32);
+}
+
+form {
+    margin: 0 1em 0 1em;
+    
+}
+
+h4 {
+    margin-top: .5px;
+}
+
+main p {
+    margin: 2px;
+}
+
+.campaign img {
+    width: 100%;
+    padding: 0%;
+}
+
+.campaign {
+    margin: 10px auto; 
+    position: relative;
+}
+
+.campaignx h3 {
+    font-size: 1.5em;
+    margin-top: 0%;
+}
+
+picture.campaign-banner-image img {
+    width: 100%;
+}
+
+.campaignx {
+    position: absolute;
+    bottom: 8.5em;
+    left: 2em;
+    font-size: 8px;
+    color: black;
+}
+
+.campaignx h2 {
+    font-size: 2em;
+    margin: 0%;
+}
+
+.campaignx p {
+    font-size: 1em;
+}
+
+.campaignx p a{
+    color: rgb(255, 189, 74);
+}
+
+.cbasic {
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+  }
+  .cbasic p {
+    text-align: left;
+    padding-left: 1rem;
+    font-size: 1.15em ;
+  }
+  
+footer div.cbasic img {
+    width: 25px;
+    padding: 0%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+main picture img {
+    width: 150px;
+    display: block;
+    padding-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner {
+    background-color: rgb(255, 189, 74);
+	color:rgb(15, 6, 32);
+    padding: .5em .5em;
+    display: none;
+}
+.copyright {
+    padding: 2em 0 0 0;
+    font-size: 10px;
+    display: block;
+}

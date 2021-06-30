@@ -1,0 +1,64 @@
+@media only screen and (min-width: 64rem) {
+
+
+
+    nav ul.hide {
+        display: block;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul {
+        margin-left: 2%;
+    }
+
+    nav ul li a{
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    nav ul li {
+        float: left;
+    
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        padding: 0.6rem 1rem;
+    }
+
+
+    header {
+        justify-content: left;
+    }
+
+    header picture img {
+        padding: 0 0 0 2em;
+    }
+
+    button {
+        display: none;
+    }
+    
+    figure {
+        width: 300px;
+        margin: 2em;
+        border: none;
+        box-shadow: none;
+      }
+
+      figure:hover {
+        box-shadow: 0 0 30px rgb(51, 47, 51);
+      }
+
+     #gallery-photos {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(250px, 1fr));
+        justify-items: center;
+      }
+
+
+}

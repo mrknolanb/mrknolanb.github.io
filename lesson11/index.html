@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A weather site plan by Mark Nolan Bullag for WDD 230">
+    <title>Whether Weather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="lesson9/css/small.css">
+    <link rel="stylesheet" href="lesson9/css/medium.css">
+    <link rel="stylesheet" href="lesson9/css/large.css">
+    <link rel="shortcut icon" href="lesson9/favicon.ico">
+</head>
+
+<body>
+    <div class="banner">
+        <h1>Saturday = Preston Pancakes in the Park! 🥞</h1>
+        <p><em>9:00 a.m.</em> Saturday at the city park pavilion.</p>
+    </div>
+    <header>
+        <picture>
+            <img src="lesson9/images/Wwlogo.png" alt="whether weather logo">
+        </picture>
+        <section class="headings">
+            <h1>Whether</h1>
+            <div class="second-line">Weather</div>
+        </section>
+        <button onclick="toggleMenu()">&#9776;</button>
+    </header>
+    <nav>
+
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="preston.html" >Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="preston-herobanner">
+            <picture class="preston-banner-image">
+                <source srcset="lesson9/images/hero-image-l.jpg" media="(min-width: 1000px)">
+                  <source srcset="lesson9/images/hero-image-m.jpg" media="(min-width: 600px)">
+                <img src="lesson9/images/hero-image-s.jpg" alt="hero-image-banner"> 
+              </picture>
+        </section>
+
+        <div class="cards"></div>
+        <section class="campaign">
+            <picture class="campaign-banner-image">
+                <img src="lesson9/images/eagle.jpg" alt="campaign-image-banner"> 
+              </picture>
+            <section class="campaignx">
+                <h2>Protect Eagles</h2>
+                <h3>Campaign</h3>
+                <p><a href="#"><strong>Join Us today!>></strong></a></p>
+            </section>
+        </section>
+        <section class="wireframes">Wireframes <a href="https://wireframe.cc/uL9EDR">📱</a><a href="https://wireframe.cc/2s5HTJ">💻</a><a href="https://wireframe.cc/oFIPJx">🖥</a></section>
+    </main>
+    <footer>
+
+            <div class="cbasic">
+                <img src="lesson9/images/message.png" alt="mail" width="50">
+                <p>Customer Support: support@weeweather.com</p>
+                <img src="lesson9/images/message.png" alt="mail2" width="50">
+                <p>Website Feedback: webmaster@weeweather.com</p>
+                <img src="lesson9/images/call.png" alt="telephone" width="50">
+                <p>Phone (Calls and texts): 123-456-789</p>
+            </div>
+        <div class="copyright">
+            &copy; <span id="thisyear"></span> | Mark Nolan Bullag | Bacolod City, Philippines |
+            <a href="https://www.byui.edu/online">BYU Online Learning</a>
+            <p>Last Modified: <span id="lastmod"></span></p>
+        </div>
+    </footer>
+    <script src="lesson9/js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+  WebFont.load({google: { families: [ "Noto Sans JP", "M PLUS Rounded 1c", "Noto Serif JP"]}});
+</script>
+</body>
+
+</html>
