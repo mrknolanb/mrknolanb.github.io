@@ -166,6 +166,10 @@ ul.fiveDay li{
 
 }
 
+#current1, #current2, #current3, #current4, #current5 {
+    font-size: .65em;
+}
+
 footer p {
     font-size: 1.15em;
 }
