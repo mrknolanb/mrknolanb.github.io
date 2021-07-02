@@ -12,13 +12,11 @@
     <link rel="stylesheet" href="lesson10/css/medium.css">
     <link rel="stylesheet" href="lesson10/css/large.css">
     <link rel="shortcut icon" href="lesson10/favicon.ico">
+    <script defer src="lesson10/js/fishhavenscript.js"></script>
+
 </head>
 
 <body>
-    <div class="banner">
-        <h1>Saturday = Preston Pancakes in the Park! 🥞</h1>
-        <p><em>9:00 a.m.</em> Saturday at the city park pavilion.</p>
-    </div>
     <header>
         <picture>
             <img src="lesson10/images/Wwlogo.png" alt="whether weather logo">
@@ -32,24 +30,23 @@
     <nav>
 
         <ul id="primaryNav" class="hide">
-            <li><a href="index.html" >Home</a></li>
-            <li><a href="preston.html" class="active">Preston</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
             <li><a href="sodasprings.html">Soda Springs</a></li>
-            <li><a href="fishhaven.html">Fish Haven</a></li>
-            <li><a href="stormcenter.html" >Storm Center</a></li>
+            <li><a href="fishhaven.html" class="active">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
             <li><a href="gallery.html">Gallery</a></li>
-            <script defer src="lesson10/js/script.js"></script>
 
-          </ul>
+        </ul>
     </nav>
     <main>
-        <section class="preston-herobanner">
-            <h2>Preston Idaho</h2>
-            <picture class="preston-banner-image">
-                <source srcset="lesson10/images/hero-image-l.jpg" media="(min-width: 1000px)">
-                  <source srcset="lesson10/images/hero-image-m.jpg" media="(min-width: 600px)">
-                <img src="lesson10/images/hero-image-s.jpg" alt="hero-image-banner"> 
-              </picture>
+        <section class="fishhaven-herobanner">
+            <h2>Fish Haven, Idaho</h2>
+            <picture class="fishhaven-banner-image">
+                <source srcset="lesson10/images/fishhaven-hero-image-l.jpg" media="(min-width: 1000px)">
+                <source srcset="lesson10/images/fishhaven-image-m.jpg" media="(min-width: 600px)">
+                <img src="lesson10/images/fishhaven-image-s.jpg" alt="hero-image-banner">
+            </picture>
             <section class="weasum">
                 <h2>Weather Summary</h2>
                 <p>Currently: <span id="current"></span></p>
@@ -62,23 +59,34 @@
         <section>
             <h2>Five Day Forecast</h2>
             <ul class="fiveDay">
-                <li><img src="" alt="" id="imgday1"><br><span id="day1"></span><hr><span id="temp1"></span>&deg;F</li>
-                <li><img src="" alt="" id="imgday2"><br><span id="day2"></span><hr><span id="temp2"></span>&deg;F</li>
-                <li><img src="" alt="" id="imgday3"><br><span id="day3"></span><hr><span id="temp3"></span>&deg;F</li>
-                <li><img src="" alt="" id="imgday4"><br><span id="day4"></span><hr><span id="temp4"></span>&deg;F</li>
-                <li><img src="" alt="" id="imgday5"><br><span id="day5"></span><hr><span id="temp5"></span>&deg;F</li>
+                <li><img src="" alt="" id="imgday1"><br><span id="day1"></span>
+                    <hr><span id="temp1"></span>&deg;F
+                </li>
+                <li><img src="" alt="" id="imgday2"><br><span id="day2"></span>
+                    <hr><span id="temp2"></span>&deg;F
+                </li>
+                <li><img src="" alt="" id="imgday3"><br><span id="day3"></span>
+                    <hr><span id="temp3"></span>&deg;F
+                </li>
+                <li><img src="" alt="" id="imgday4"><br><span id="day4"></span>
+                    <hr><span id="temp4"></span>&deg;F
+                </li>
+                <li><img src="" alt="" id="imgday5"><br><span id="day5"></span>
+                    <hr><span id="temp5"></span>&deg;F
+                </li>
             </ul>
         </section>
         <section class="townEvents">
             <h1>Upcoming Town Events</h1>
-            <hr style="border: 5px solid; border-image-slice: 1; border-width: 5px; border-image-source: linear-gradient(to right, #743ad5, rgb(255, 189, 74)); padding: 0%; margin: 0%;">
-          </section>
+            <hr
+                style="border: 5px solid; border-image-slice: 1; border-width: 5px; border-image-source: linear-gradient(to right, #743ad5, rgb(255, 189, 74)); padding: 0%; margin: 0%;">
+        </section>
         <section>
             <h2>Weather Summary</h2>
-            <figure><img src="lesson10/images/pexels-mario-cuadros-3240914.jpg" alt="a girl in the rain">
+            <figure><img src="lesson10/images/pexels-lachlan-ross-7084345.jpg" alt="a boy biking in the rain">
                 <figcaption><a
-                        href="https://www.pexels.com/photo/woman-walking-on-street-under-black-umbrella-3240914/">Photo
-                        by Mario Cuadros from Pexels</a></figcaption>
+                        href="https://www.pexels.com/photo/grassy-coast-of-endless-blue-ocean-under-cloudy-sky-7084345/">Photo
+                        by Lachlan Ross from Pexels</a></figcaption>
             </figure>
             <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex dolore ipsum recusandae repudiandae
                 exercitationem aspernatur minima quasi magnam eius a sit fugit dolorem reiciendis aut rem deleniti,
@@ -119,7 +127,7 @@
         </section>
 
         <section>
-            <img src="lesson10/images/map-preston400x234.png" alt="map">
+            <img src="lesson10/images/map-fishhaven400x234.png" alt="map">
         </section>
 
         <section>
@@ -129,9 +137,9 @@
         </section>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-<script>
-  WebFont.load({google: { families: [ "Noto Sans JP", "M PLUS Rounded 1c", "Noto Serif JP"]}});
-</script>
+    <script>
+        WebFont.load({ google: { families: ["Noto Sans JP", "M PLUS Rounded 1c", "Noto Serif JP"] } });
+    </script>
 </body>
 
 </html>

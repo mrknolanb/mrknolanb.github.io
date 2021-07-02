@@ -1,14 +1,20 @@
 @media only screen and (min-width: 35em) {
 
-    footer {
-        display: flex;
-        flex-direction: row-reverse;
-        text-align: center;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
     footer section:first-child {
         padding-top: 2em;
+    }
+
+      .cbasic p {
+        font-size: 15px;
+      }
+
+      .cbasic img {
+          margin-top: 10px;
+      }
+
+      .copyright {
+        padding: 2em 0 0 0;
+        font-size: 15px;
     }
   
 

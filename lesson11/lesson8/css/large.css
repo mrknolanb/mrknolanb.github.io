@@ -38,6 +38,15 @@
     }
 
     header picture img {
+        padding: 0 0 0 2em;
+    }
+
+    button {
+        display: none;
+    }
+
+
+    header picture img {
         padding: 0 0 0 1.5em;
     }
 

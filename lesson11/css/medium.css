@@ -27,10 +27,6 @@
 
     }
 
-    .townEvents h1 {
-        font-size: 2em;
-    }
-
     figure {
         width: 275px;
         margin: 2em;
@@ -39,7 +35,7 @@
         float: right;
 
       }
-      li hr {
+      hr {
         border: 5px solid;
         border-image-slice: 1;
         border-width: 2.5px;

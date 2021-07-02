@@ -6,12 +6,8 @@ function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("hide");
 }
 
-if (today.getDay() == 5) {
-    document.querySelector('.banner').style.display = "block"
 
-}
-
-const cityid = "5604473"
+const cityid = "5585010"
 const APPID = "5976fad0960c50bf09e8fe2e09d89de8"
 
 const apiURL = `https://api.openweathermap.org/data/2.5/forecast?id=${cityid}&APPID=${APPID}&units=imperial`;
@@ -83,7 +79,7 @@ fetch(requestURL)
  .then(function (jsonObject) {
    const towns = jsonObject['towns'];
    for (let i = 0; i < towns.length; i++ ) {
-      if (towns[i].name == 'Preston') {
+      if (towns[i].name == 'Fish Haven') {
       let events = towns[i].events;
       for (let i=0; i < events.length; i++) {
       let event = document.createElement('p');
