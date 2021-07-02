@@ -64,7 +64,7 @@ fetch(apiURL)
     //   console.log(d)
     document.getElementById(`temp${day+1}`).textContent = Math.round(x.main.temp)
     document.getElementById(`day${day+1}`).textContent = weekdays[d.getDay()];
-    document.getElementById(`current${day+1}`).textContent = `${x.weather[0].main}`
+    document.getElementById(`current${day+1}`).textContent = `${x.weather[0].description}`
     const imgsrc = `https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/${x.weather[0].icon}.svg`
     document.getElementById(`imgday${day+1}`).textContent = imgsrc
     document.getElementById(`imgday${day+1}`).src = imgsrc
