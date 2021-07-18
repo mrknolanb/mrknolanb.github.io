@@ -43,17 +43,6 @@ fetch(APIUrl)
     document.getElementById(`iconTemp`).src = imgsrc
 })
 
-const newsAPIKey = "c4666cbb752058d83b3a380d94f770b3"
-
-
-const NewsAPIUrl = `http://api.mediastack.com/v1/news?access_key=${newsAPIKey}&categories=business&countries=ph&sort=popularity`
-fetch(NewsAPIUrl)
-.then((response) => response.json())
-.then((newsJsObject) => {
-  console.log(newsJsObject);
-
-})
-
 var slideIndex = 1;
 showSlides(slideIndex);
  
@@ -80,4 +69,4 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
 }
- 
+
