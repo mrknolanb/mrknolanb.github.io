@@ -1,86 +1,114 @@
 @media only screen and (min-width: 35em) {
 
-    footer section:first-child {
-        padding-top: 2em;
-    }
+  .text button{
+    width: 5.5em;
+    height: 2em;
+} 
 
-    main h2 {
-        font-size: 1.5em;
-    }
+.text {
+font-size: 2em;
+}
+  .weatherSummary ul {
+    list-style: none;
+    padding: 1em 0 1.25em 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: .4rem;
+  }
+  
+  .weatherSummary #iconTemp {
+    height: 90px;
+    width: auto;
+    place-self: center;
+    border-radius: 1em;
+  }
+  
+  .weatherSummary #currentTemp {
+    font-size: 2.75em;
+  }
+  
+  .weatherSummary ul li:nth-child(odd) {
+    text-align: right;
+  } 
+  .weatherSummary span {
+    font-weight: bold;
+    color: var(--darkblue);
+  }
 
-    form legend {
-        font-size: 1.25rem;
+  .purpose h2 {
+    background-color: #1D1D1D ;
+    color: white;
+    margin: 0;
+    padding: .75rem;
+    text-align: left;
+  }
+
+  .purpose ul li span{
+    font-size: 2em;
+    color: #D93939;
+    font-weight: bold;
+  }
+  
+  .purpose ul li {
+    margin: 1em;
+    list-style: none;
+  }
+
+.site--name h1, h3, p{
+    margin: 0%; 
+}
+
+
+
+#details h2 {
+  margin-top: 0.5em;
+  margin-bottom: 0%;
+  font-size: 3em;
+  }
+
+  #details h4 {
+      margin-top: 0.5em;
+      margin-bottom: 1em;
+      font-size: 1.5em;
       }
 
-      .cbasic p {
-        font-size: 15px;
-      }
+.cards {
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
 
-      .cbasic img {
-          margin-top: 10px;
-      }
+.cards section {
+  display: inline-block;
+  width: 33%;
+  justify-content: center;
+}
 
-      .copyright {
-        padding: 2em 0 0 0;
-        font-size: 15px;
-    }
 
-    .cards section {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-      }
-    
-      .cards section:nth-child(odd) img {
-        grid-column: 1;
-      }
-    
-      .cards section:nth-child(odd) #details {
-        grid-column: 2;
-        grid-row: 1;
-      }
 
-      .campaignx {
-        position: absolute;
-        bottom: 13em;
-        left: 2em;
-      }
+.threeDay img {
+  width: 100%;
+  padding: 0 2em;
+}
 
-      .campaignx h3 {
-        font-size: 2.5em;
-        margin-top: 0%;
-    }
+.threeDay {
+  font-size: 1rem;
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+    padding: 2em; 
+}
 
-      .campaignx h2 {
-        font-size: 5em;
-    }
-    
-    .campaignx p {
-        font-size: 1.5em;
-    }
+.weatherSummary2 h3 {
+  text-align: center;
+}
 
-    .campaignx p a{
-        color: rgb(255, 189, 74);
-    }
-    
-    .details p {
-    line-height: 1px;
-    }
+#current1, #current2, #current3 {
+  display: none; 
+}
 
-    picture.preston-banner-image img {
-        padding: 0%;
-        width: 100%;
-        display: block;
-    }
 
-    main picture img {
-        width: 200px;
-        display: block;
-        padding-top: 4em; 
-    }
-
-    main h1 {
-        font-size: 1.5em;
-        padding: 2em 2.5em;
-    }
     
 }

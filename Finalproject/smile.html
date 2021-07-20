@@ -10,6 +10,9 @@
     <title>Smile Bacolod</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 </head>
 
 <body>
@@ -30,7 +33,7 @@
     </header>
     <nav>
         <ul id="primaryNav" class="hide">
-            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#" class="active">Home</a></li>
             <li><a href="#">Join Us</a></li>
             <li><a href="#">Bacolod City</a></li>
             <li><a href="#">Directory</a></li>
@@ -43,7 +46,7 @@
 
             <div class="banner mySlides fade">
                 <img src="images/smile-chamber banner.png" alt="banner" style="width:100%">
-                <div class="text"><button>Join Us!</button></div>
+                <div class="text"><button><a href="#">Join Us!</a></button></div>
             </div>
 
             <div class="mySlides fade">
@@ -100,36 +103,34 @@
                     business of everyone’s interest.
                 </li>
             </ul>
+            <h2>We are local!!</h2>
         </div>
 
-        <section class="local">
-            <h2>We are local!!</h2>
-            <article>
-                <img src="images/jitters.jpg" alt="jitters logo">
-                <div class="data">
+        <div class="cards">
+            <section>
+                <div id="details">
                     <h2>Jitters</h2>
                     <h4>Snack Bar</h4>
-                </div>
-            </article>
-            <article>
-                <img src="images/mrg.jpg" alt="mrg logo">
-                <div class="data">
+                </div><img src="images/jitters.jpg" alt="jitters logo">
+            </section>
+            <section>
+                <div id="details">
                     <h2>MRG</h2>
                     <h4>Driving School</h4>
-                </div>
-            </article>
-            <article>
-                <img src="images/chulo.jpg" alt="chulo logo">
-                <div class="data">
+                </div><img src="images/mrg.jpg" alt="mrg logo">
+            </section>
+            <section>
+                <div id="details">
                     <h2>Chulo</h2>
                     <h4>Milk Tea</h4>
-                </div>
-            </article>
-        </section>
+                </div><img src="images/chulo.jpg" alt="chulo logo">
+            </section>
+        </div>
 
-
+<div class="local-weather">
+    <h2 class="exclude">Bacolod City Weather</h2>
         <div class="weatherSummary">
-            <h2>Bacolod City Weather</h2>
+            
             <ul>
                 <li><img src="#" alt="" id="iconTemp"></li>
                 <li><span id="currentTemp"></span><span>&deg;C</span><br><span id="currentDesc"></span></li>
@@ -140,11 +141,67 @@
             </ul>
         </div>
         </div>
-        <div class="events">
+        <section class="weatherSummary2">
+            <h3>Three-Day Forecast</h3>
+            <ul class="threeDay">
+                <li><img src="" alt="" id="imgday1"><br><span id="current1"></span><br><span id="day1"></span><br><span
+                        id="temp1"></span>&deg;C</li>
+                <li><img src="" alt="" id="imgday2"><br><span id="current2"></span><br><span id="day2"></span><br><span
+                        id="temp2"></span>&deg;C</li>
+                <li><img src="" alt="" id="imgday3"><br><span id="current3"></span><br><span id="day3"></span><br><span
+                        id="temp3"></span>&deg;C</li>
+            </ul>
+        </section>
+    </div>
+        <section class="events">
             <h2>Upcoming Events</h2>
-            <section></section>
-            <section></section>
-        </div>
+            <div class="event-data" style="height: 215px;">
+                <div class="custom-event-date">
+                    <div class="day-num">22</div>
+                    <div class="month-group">
+                        <div class="month-name">July</div>
+                        <div class="day-name">Thursday</div>
+                    </div>
+                    <div class="time-group">
+                        <div class="start-time">2:00PM</div>
+                        <div class="end-time">3:00PM</div>
+                    </div>
+                </div>
+                <h3>Go SMART: Establishing Smart Business Through Social Media Marketing</h3>
+                <br>
+                <p>Join the Smile Chamber on Thursday, July 22nd at 12:00PM for Go SMART: Establishing Smart Business
+                    Through Social Media Marketing</p> <br>
+                <span class="event-more"><a href="#">Read More</a></span>
+                <br> <br>
+                <div class="register-btn"><a href="#">Register</a></div>
+                <div class="share-btn"><a href="#">Share</a></div>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <div class="event-data2" style="height: 215px;">
+                <div class="custom-event-date">
+                    <div class="day-num">24</div>
+                    <div class="month-group">
+                        <div class="month-name">July</div>
+                        <div class="day-name">Saturday</div>
+                    </div>
+                    <div class="time-group">
+                        <div class="start-time">3:00PM</div>
+                        <div class="end-time">4:30PM</div>
+                    </div>
+                </div>
+                <h3>Everyone that SMILEs: Engaging Small Businesses in the Most Efficient Spots Within Bacolod</h3>
+                <br>
+                <p>Join the Smile Chamber on Saturday, July 24th at 3:00PM for Everyone that SMILEs: Engaging Small
+                    Businesses in the Most Efficient Spots Within Bacolod</p> <br>
+                <span class="event-more"><a href="#">Read More</a></span>
+                <br> <br>
+                <div class="register-btn"><a href="#">Register</a></div>
+                <div class="share-btn"><a href="#">Share</a></div>
+            </div>
+            <div class="event-data"></div>
+        </section>
     </main>
     <footer>
         <div class="contacts">Phone: 123-456-7890 | <br>Email: smile-chamber@gmail.com</div>
