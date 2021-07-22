@@ -160,15 +160,6 @@ footer {
     margin-top: 1em;
 }
 
-figure {
-    text-align: center;
-    font-style: italic;
-    font-size: 10px;
-    text-indent: 0;
-    border-radius:10px ;
-    box-shadow: 0 0 30px rgb(51, 47, 51);
-}
-
 .copyright {
     padding: 2em 0 0 0;
     font-size: 10px;
@@ -186,6 +177,22 @@ figure a {
     display: none;
 }
 
+footer section:nth-child(3) {
+    font-size: .7em;
+}
+
+figure {
+    text-align: center;
+    font-style: italic;
+    font-size: 10px;
+    text-indent: 0;
+    border-radius:10px ;
+    box-shadow: 0 0 30px rgb(51, 47, 51);
+}
+
+figure a {
+    font-size: 9px;
+}
 
 figure img[data-src] {
     filter: blur(.5em);
@@ -196,9 +203,7 @@ figure img[data-src] {
     transition: filter 0.5s;
   }
 
-  footer section:nth-child(3) {
-    font-size: .7em;
-}
+
 
 #result {
     font-size: 1em;

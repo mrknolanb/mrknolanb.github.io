@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Smile Bacolod is a group of business facilitator to help the community's economic stability.">
+    <title>Smile Bacolod</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="join-css/small.css">
+    <link rel="stylesheet" href="join-css/medium.css">
+    <link rel="stylesheet" href="join-css/large.css">
+</head>
+
+<body>
+    <header>
+        <picture>
+            <a href="smile.html"><img src="images/logo.png" alt="smile logo"></a>
+        </picture>
+        <div class="site--name">
+            <h1>Smile</h1>
+            <h3>Chamber</h3>
+            <p>Business that Smile!</p>
+        </div>
+        <div class="toggleMenu">
+            <div class="menu-btn">
+                <div class="menu-btn__burger"></div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="join.html" class="active">Join Us</a></li>
+            <li><a href="bacolod.html">Bacolod City</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <link rel="shortcut icon" href="images/favicon.ico">
+
+        </ul>
+    </nav>
+    <main>
+        <div class="join-banner">
+            <img src="images/The_Ruins_in_Talisay,_Negros_Occidental.jpg" alt="City Hall" style="width:100%">
+        </div>
+        <h2>Join Us</h2>
+        <div id="feedback"></div>
+        <form method="GET" action="/my-handling-form-page">
+            <fieldset>
+                <legend>Organization</legend>
+                <label class="info">
+                    Oraganization Name <span class="require-info"> *</span> <input type="text" name="organization"
+                        title="Please have at least 3 letters entered" required>
+                </label>
+                <label class="info">
+                    Address <span class="require-info"> *</span> <input type="text" name="address"
+                        title="Please have at least 3 letters entered" required>
+                </label>
+                <label class="info">
+                    Email <span class="require-info"> *</span> <input type="" name="email" placeholder="business@email.com">
+                </label>
+                <label class="info">
+                    Phone<span class="require-info"> *</span> <input type="tel" name="phone" title="Please write 10 numbers or more"
+                        placeholder="123-456-7890" required>
+                </label>
+                <label class="info">
+                    Website <input type="" name="text">
+                </label>
+                <label class="info">
+                    Zip Code<span class="require-info"> *</span> <input type="number" name="zipcode" required>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Main Contact</legend>
+                    <label class="info">
+                    First Name <span class="require-info"> *</span> <input type="text" name="first-name" title="Please have at least 3 letters entered" pattern="^([a-zA-Z]{2,}\s[a-zA-Z]{1,}'?-?[a-zA-Z]{2,}\s?([a-zA-Z]{1,})?)" required>
+                    </label>
+                    <label class="info">
+                    Last Name <span class="require-info"> *</span> <input type="text" name="last-name" title="Please have at least 3 letters entered" pattern="^([a-zA-Z]{2,}\s[a-zA-Z]{1,}'?-?[a-zA-Z]{2,}\s?([a-zA-Z]{1,})?)" required>
+                    </label>
+                    <label class="info">
+                    Title <input type="text" name="title" title="Please have at least 3 letters entered" >
+                    </label>    
+                    <label class="info">
+                    Email<span class="require-info"> *</span> <input type="email" name="email" placeholder="user@email.com" required>
+                    </label>  
+                    <label class="info">
+                    Phone<span class="require-info"> *</span> <input type="tel" name="phone" title="Please write 10 numbers or more" placeholder="123-456-7890" required>
+                    </label>
+                    <label class="info">
+                    Zip Code<span class="require-info"> *</span> <input type="number" name="zipcode" required>
+                    </label>
+            </fieldset>
+            <fieldset>
+                <legend>Additional Information</legend>
+                <label class="top">Business Description:
+                    <textarea name="comments" id="comments">
+                  </textarea> </label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership Level Selection</legend>
+                <label class="business-level">
+                    Membership Level: <input list="business-membership-level" name="business-membership-level">
+                      <datalist id="business-membership-level">
+                        <option value="Non-profit ($100)"></option>
+                        <option value="Bronze ($200)"></option>
+                        <option value="Silver ($400)"></option>
+                        <option value="Gold ($1000)"></option>
+                      </datalist>
+                    </label>
+            </fieldset>
+            <div class="membership-level-explain">
+                <h2 class="join2-heading">Membership Level Perks</h2>
+                <h4>Non Profit ($100)</h4>
+                <ul>
+                    <li>SmileChamber E-Newsletter & Member News</li>
+                    <li>Be Included on Smile Chamber Website Listing</li>
+                    <li>Quarterly Copy of Community Guide & Business Directory Magazine</li>
+                </ul>
+                <h4>Bronze ($200)</h4>
+                <ul>
+                    <li>SmileChamber E-Newsletter & Member News</li>
+                    <li>Be Included on Smile Chamber Website Listing</li>
+                    <li>Quarterly Copy of Community Guide & Business Directory Magazine</li>
+                    <li>Referrals and Lead Tracking</li>
+                    <li>Complimentary "Business Spotlight" for Our Social Media Sites</li>
+                </ul>
+                <h4>Silver ($400)</h4>
+                <ul>
+                    <li>SmileChamber E-Newsletter & Member News</li>
+                    <li>Be Included on Smile Chamber Website Listing</li>
+                    <li>Quarterly Copy of Community Guide & Business Directory Magazine</li>
+                    <li>Notary Service Assistance</li>
+                    <li>Referrals and Lead Tracking</li>
+                    <li>Complimentary "Business Spotlight" for Our Social Media Sites</li>
+                </ul>
+                <h4>Gold ($1000)</h4>
+                <ul>
+                    <li>SmileChamber E-Newsletter & Member News</li>
+                    <li>Be Included on Smile Chamber Website Listing</li>
+                    <li>Quarterly Copy of Community Guide & Business Directory Magazine</li>
+                    <li>Notary Service Assistance</li>
+                    <li>Referrals and Lead Tracking</li>
+                    <li>Complimentary "Business Spotlight" for Our Social Media Sites</li>
+                    <li>Luncheon Tickets</li>
+                    <li>Advertising Sponsorships</li>
+                </ul>
+            </div>
+            <input class="submit_button" type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <div class="contacts">Phone: 123-456-7890 | <br>Email: smile-chamber@gmail.com</div>
+        <div class="social-media">
+            <a href="https://www.facebook.com/"><img src="images/facebook logo.png"></a>
+            <a href="https://www.instagram.com/"><img src="images/instagram logo.png"></a>
+            <a href="https://www.twitter.com/"><img src="images/twitter logo.png"></a>
+        </div>
+        <div class="copyright">&copy; <span id="thisyear"></span> | Smile Chamber Bacolod City |
+            <a href="https://openweathermap.org/">OpenWeatherMap</a><br>
+            <p>Last Modified: <span id="lastmod"></span></p>
+        </div>
+
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({ google: { families: ["Crimson Text", "Cairo", "Noto Serif JP"] } });
+    </script>
+</body>
+
+</html>

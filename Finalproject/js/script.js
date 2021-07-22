@@ -1,5 +1,6 @@
-function toggleMenu() {
-}
+var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+var today  = new Date();
+document.querySelector('#lastmod').textContent = today.toLocaleDateString("en-GB", options);
 
 document.querySelector('#thisyear').textContent = new Date().getFullYear();
 
@@ -91,3 +92,11 @@ function showSlides(n) {
     dots[slideIndex - 1].className += " active";
 }
 
+const feedbackElement = document.getElementById('feedback');
+    const formElement = document.forms[0];
+    formElement.addEventListener('submit', function(e) {
+        e.preventDefault();
+        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+        feedbackElement.style.display = "block";
+        document.body.classList.toggle('moveDown');
+    });
